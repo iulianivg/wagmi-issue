@@ -1,0 +1,22 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="24" height="24">
+	<title>polygon-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m250 494.91c-135.44 0-244.91-109.47-244.91-244.91 0-135.44 109.47-244.91 244.91-244.91 135.44 0 244.91 109.47 244.91 244.91 0 135.44-109.47 244.91-244.91 244.91z"/>
+		</clipPath>
+		<linearGradient id="g1" x1="-116.1" y1="26" x2="437.5" y2="364.7" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#a229c5"/>
+			<stop offset="1" stop-color="#7b3fe4"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<path id="Layer" class="s0" d="m-18.1-18.1h536.2v536.2h-536.2z"/>
+		</g>
+	</g>
+	<path id="Layer" class="s1" d="m320.8 302.9c-3.6 2.1-8.2 2.1-11.9 0l-26-15.1v-37.6l32 18.5 48.6-28.1v-56.1l-48.6-28.1-47.7 27.6-0.9 0.5v143c0 4.2-2.3 8.2-6 10.3l-69.2 40c-3.7 2.1-8.3 2.1-11.9 0l-69.3-40c-3.7-2.1-6-6.1-6-10.3v-80c0-4.3 2.3-8.2 6-10.3l69.3-40c1.8-1.1 3.8-1.6 5.9-1.6 2.1 0 4.2 0.5 6 1.6l26.1 15v37.7l-32.1-18.5-48.6 28v56.1l48.6 28.1 48.6-28.1v-143c0-4.2 2.3-8.1 5.9-10.3l69.3-40c3.7-2.1 8.3-2.1 11.9 0l69.3 40c3.7 2.2 6 6.1 6 10.3v80c0 4.3-2.3 8.2-6 10.3l-69.3 40.1z"/>
+</svg>
