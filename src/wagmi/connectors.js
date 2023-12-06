@@ -60,13 +60,7 @@ export const config = createConfig({
       chains,
       options: {
         showQrModal: true,
-        projectId: '2c40a3beecb11421a37d47c2e774f391',
-        metadata: {
-          name: 'dpex p2p',
-          description: 'DPEX p2p allows you to trade decentralized.',
-          // url: 'https://wagmi.sh',
-          // icons: ['https://wagmi.sh/icon.png'],
-        },
+        projectId: '2c40a3beecb11421a37d47c2e774f391'
       },
     }),
     new InjectedConnector({
