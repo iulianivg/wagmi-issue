@@ -7,22 +7,13 @@ import {
   Link
 } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
-// import Analytics from './Analytics';
-// import Project from './Project';
-import { ToastContainer } from 'react-toastify';
 import { WagmiConfig } from 'wagmi'
+
 import 'react-toastify/dist/ReactToastify.css';
 
 
-import ConnectModal from './components/ConnectModal'
 import {config} from './wagmi/connectors'
-import NavBar from './components/Navbar'
-
-// import Token from './Token';
-
-
-import './home.css'
-
+import Profile from './Profile'
 
 
 
@@ -30,15 +21,14 @@ import './home.css'
 
 const GlobalStyles = createGlobalStyle`
   body {
-    // font-family: 'OpenSans';
     height: 100%;
-    // background: url('/bg.png');
-    // background-size: cover;
-    font-family:Relative,sans-serif;
+    color: black;
   }
 `
 
 function App() {
+
+
   return (
     <Router>
     <div>
@@ -46,15 +36,12 @@ function App() {
     <GlobalStyles />
     <WagmiConfig config={config}>
     {/* <Web3ReactProvider getLibrary={getLibrary}> */}
-    <ConnectModal />
-    <ToastContainer />
           <Switch>  
           
 
           
           <Route path="/">
-            <NavBar />
-            <p style={{textAlign:'center'}}>test</p>
+            <Profile />
           </Route>
         </Switch>
       </WagmiConfig>
